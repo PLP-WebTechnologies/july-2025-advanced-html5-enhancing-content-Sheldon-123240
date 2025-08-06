@@ -1,1 +1,139 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Enhanced-form.html</title>
+  </head>
+  <body>
+    <h2>Enhanced Form Assignment</h2>
+    <section><h1>Lists</h1></section>
+    <h2>Un-ordered lists</h2>
+    <ul>
+      <li>Mali</li>
+      <li>Burkina faso</li>
+      <li>Gambia</li>
+    </ul>
+    <h2>Ordered lists</h2>
+    <ol>
+      <li>Kenya</li>
+      <li>Tanzania</li>
+      <li>Uganda</li>
+    </ol>
+    <h2>Definition lists</h2>
+    <dl>
+      <dt>HTML</dt>
+      <dd>HyperText Markup Language - a language for creating webpages.</dd>
+    </dl>
+    <h2>Nested lists</h2>
+    <ol>
+      <li>Frontend Languages</li>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+      </ul>
+      <li>Backend Languages</li>
+      <ul>
+        <li>Python</li>
+        <li>Java</li>
+        <li>Ruby</li>
+      </ul>
+    </ol>
+    <section><h1>Tables</h1></section>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Country</th>
+          <th>Gender</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Brandon</td>
+          <td>Angola</td>
+          <td>Male</td>
+        </tr>
+        <tr>
+          <td>Molly</td>
+          <td>South Africa</td>
+          <td>Female</td>
+        </tr>
+        <tr>
+          <td>Collins</td>
+          <td>Nigeria</td>
+          <td>Male</td>
+        </tr>
+      </tbody>
+    </table>
+    <section><h2>Media</h2></section>
+    <img
+      src="https://images.pexels.com/photos/18096378/pexels-photo-18096378.jpeg"
+      alt="An image 
+    of flowers"
+      width="300"
+      height="200"
+    />
+    <br /><br />
+    <video width="500" height="300" controls>
+      <source
+        src="https://videos.pexels.com/video-files/9714260/9714260-uhd_2560_1440_30fps.mp4"
+        type="video/mp4"
+      />
+    </video>
+    <br /><br />
+    <audio controls>
+      <source src="Beneath.mp3" type="audio/mpeg" />
+    </audio>
+    <section><h2>Forms</h2></section>
+    <form action="location" method="" autocomplete="on">
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Enter your name here..."
+        required
+      />
+      <br /><br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        email="email"
+        id="email"
+        placeholder="Enter your email here..."
+        required
+      />
+      <br /><br />
+      <label for="dob">Date of Birth:</label>
+      <input type="date" name="dob" id="dob" required />
+      <br /><br />
+      <label for="age">Age:</label>
+      <input
+        type="number"
+        name="age"
+        id="age"
+        placeholder="Enter your age here.."
+        minlength="18"
+        maxlength="55"
+        required
+      />
+      <br /><br />
+      <label for="cv">CV:</label>
+      <input type="file" name="cv" id="cv" required />
+      <br /><br />
+      <label for="Bio">Bio:</label>
+      <textarea
+        name="Bio"
+        id="Bio"
+        cols="30"
+        rows="10"
+        placeholder="Enter your bio here...."
+        required
+      ></textarea>
+      <label for="userid">User ID:</label>
+      <input type="text" id="userid" name="userid" value="2004Babu" readonly />
+      <br /><br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
